@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Reader</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Reader App</h1>
+
+        <div class="input-section">
+            <textarea id="text-input" placeholder="Paste or type your text here..."></textarea>
+        </div>
+
+        <div class="display-area">
+            <div id="word-display">Ready to start</div>
+        </div>
+
+        <div class="controls">
+            <button id="play-pause-btn" class="btn-primary">
+                <span class="play-icon">▶</span>
+                <span class="pause-icon" style="display: none;">❚❚</span>
+            </button>
+            <button id="reset-btn" class="btn-danger" disabled>⏮</button>
+        </div>
+
+        <div class="speed-control">
+            <label for="speed-slider">Speed:</label>
+            <input type="range" id="speed-slider" min="100" max="1000" value="250" step="10">
+            <span id="speed-value">250 WPM</span>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress"></div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-label">Words</div>
+                <div class="stat-value" id="word-count">0</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Current</div>
+                <div class="stat-value" id="current-word">0</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Time Left</div>
+                <div class="stat-value" id="time-left">0:00</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
