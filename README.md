@@ -27,26 +27,7 @@ A simple, browser-based speed reading application that displays text one word at
 ## Files
 
 ```
-reader-app/
-├── index.html    # Main HTML structure
-├── style.css     # Styling and layout
-├── script.js     # Application logic
-└── README.md     # This file
 ```
-
-## Technical Details
-
-- **Pure vanilla JavaScript** - No frameworks or dependencies
-- **Responsive design** - Works on desktop and mobile devices
-- **Browser compatible** - Works in all modern browsers (Chrome, Firefox, Safari, Edge)
-
-## Recommended Reading Speeds
-
-- **Beginner**: 100-200 WPM
-- **Average**: 200-300 WPM
-- **Above Average**: 300-400 WPM
-- **Speed Reader**: 400-600 WPM
-- **Advanced**: 600+ WPM
 
 Start at a comfortable speed and gradually increase as you become more comfortable with the single-word display format.
 
